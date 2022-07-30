@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/audiomass-output.mp3-543179e9163f9aaffc29ee3aa1af1754.mp3str"
+
+[deps]
+
+source_file="res://audiomass-output.mp3"
+dest_files=[ "res://.import/audiomass-output.mp3-543179e9163f9aaffc29ee3aa1af1754.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

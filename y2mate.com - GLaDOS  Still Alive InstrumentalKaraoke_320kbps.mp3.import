@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/y2mate.com - GLaDOS  Still Alive InstrumentalKaraoke_320kbps.mp3-8fbfbc2fcd8d76d0ce141a15ef1288b9.mp3str"
+
+[deps]
+
+source_file="res://y2mate.com - GLaDOS  Still Alive InstrumentalKaraoke_320kbps.mp3"
+dest_files=[ "res://.import/y2mate.com - GLaDOS  Still Alive InstrumentalKaraoke_320kbps.mp3-8fbfbc2fcd8d76d0ce141a15ef1288b9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

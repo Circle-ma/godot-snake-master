@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://shaders/rotate_darken_shader.tres" type="Shader" id=1]
+[ext_resource path="res://apple1.png" type="Texture" id=2]
+[ext_resource path="res://Apple.gd" type="Script" id=3]
+[ext_resource path="res://apple2.png" type="Texture" id=4]
+
+[sub_resource type="ShaderMaterial" id=29]
+shader = ExtResource( 1 )
+
+[sub_resource type="RectangleShape2D" id=30]
+extents = Vector2( 229.494, 230.92 )
+
+[node name="Apple" type="Sprite"]
+material = SubResource( 29 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+centered = false
+region_rect = Rect2( 0, 0, 50, 50 )
+script = ExtResource( 3 )
+textures = [ ExtResource( 2 ), ExtResource( 4 ) ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+visible = false
+position = Vector2( 250, 250 )
+shape = SubResource( 30 )
